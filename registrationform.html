@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;200;400;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+
+        :root {
+            --sec: #2c4b8d;
+            --shade: #f2f0f8;
+            --gra1: #b18add;
+            --gra2: #c2d3f7;
+            --text: #6a15f3;
+            --footer: #1F1F1F;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;            
+        }
+
+        body{
+            background: var(--sec);
+        }
+
+        .form-box{
+            width: 28%;
+            height: 70vh;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 8px;
+            background: #fff;
+        }
+        form{
+            width: 90%;
+            height: 55vh;
+            margin-left: 20px;
+        }
+        form input{
+            width: 100%;
+            height: 40px;
+            padding: 5px;
+            font-size: 15px;
+            border-left: 20px solid #004953;
+            border-right: 20px solid #004953;
+        }
+        h1{
+            text-align: center;
+            padding: 15px;
+            color: #004953;
+        }
+        .form-box p{
+            text-align: center;
+        }
+        .form-box a{
+            position: absolute;
+            text-decoration: none;
+            background: #004953;
+            font-size: 1.5em;
+            text-align: center;
+            color: goldenrod;
+            margin-top: 30px;
+            padding: 5px;
+            width: 25%;
+            height: 40px;
+            border-radius: 5px;
+        }
+
+        form label{
+            display: flex;
+            margin-top: 15px;
+            font-size: 18px;
+        }
+               
+        
+        @media(max-width: 840px){
+           
+            .form-box{
+                margin-top: 50px;
+                width: 75%;
+                height: 75vh;
+                
+            }
+            form{
+                width: 95%;
+                height: 55vh;
+                margin: 0px 20px;
+            }
+            form input{
+                width: 90%;
+                height: 25px;
+                padding: 3px;
+                font-size: 12px;
+                border-left: 15px solid #004953;
+                border-right: 15px solid #004953;
+            }
+            h1{
+                text-align: center;
+                padding: 15px;
+                color: #004953;
+            }
+            .form-box p{
+                text-align: center;
+                font-size: 12px;
+            }
+            .form-box a{
+                background: #004953;
+                font-size: 25px;
+                margin-top: 10px;
+                padding: 4px;
+                width: 63%;
+                height: 40px;
+                border-radius: 5px;
+            }
+    
+            form label{
+                display: flex;
+                margin-top: 10px;
+                font-size: 18px;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <div class="form-box">
+        <h1>Free Register</h1>
+        <p>After Registration you will be redirected to our company chat.</p>
+        <form action="">
+            <label for="">Full Name</label>
+            <input type="text" name="" id="" placeholder="Me sunanka/ki">
+            <label for="">Address</label>
+            <input type="text" name="" id="" placeholder="Daga ina kake/kike">
+            <label for="">Email Id</label>
+            <input type="email" name="" id="" placeholder="Email naka/naki">
+            <label for="">Password</label>
+            <input type="password" name="" id="" placeholder="Lambar sirrinka/ki"><br>
+            <a href="https://wa.link/dlvy3u">submit</a>
+        </form>
+        </div>
+
+    <script src="app.js"></script>
+</body>
+</body>
+</html>
